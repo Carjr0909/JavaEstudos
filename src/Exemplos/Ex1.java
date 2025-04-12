@@ -1,4 +1,4 @@
-/*
+package Exemplos;/*
 Eemplo 1 - Somar dois números
 
 Desenvolva um programa que faça a soma de dois números
