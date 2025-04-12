@@ -75,7 +75,7 @@ public class L5ex1 {
                     limparTela();
                     break;
             }
-        }while(esc == 5);
+        }while(esc != '5');
 
         System.out.println("Saindo.");
         Thread.sleep(1000);
