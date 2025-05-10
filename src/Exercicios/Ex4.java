@@ -7,7 +7,7 @@ public class Ex4 {
         Scanner ler = new Scanner(System.in);
 
         double[] valor = new double[11];
-        double soma;
+        double soma = 0, val;
 
         System.out.println("============================");
         System.out.println("*** Digite números ***");
@@ -17,10 +17,14 @@ public class Ex4 {
 
             System.out.print("Digite o valor do " + i + "° número: \n --> ");
             valor[i] = ler.nextDouble();
-
-            soma = soma += valor[i];
+            val = valor[i] % 2;
+            if(val != 0){
+                soma = soma += valor[i];
+            }
 
             ler.nextLine();
         }
+
+        System.out.println("Valor total: " + soma);
     }
 }
