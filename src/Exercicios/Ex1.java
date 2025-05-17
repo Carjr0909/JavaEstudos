@@ -97,8 +97,8 @@ public class Ex1 {
         System.out.println("==========================");
         for (int f = 1; f <= pr; f++){
             System.out.println(f + "° " + nomes[f] + " - R$" + valor[f]);
-
         }
+        System.out.println("==========================");
         System.out.println("\nValor total: " + total);
 
         System.out.println("\n" + fr);
